@@ -1,9 +1,9 @@
 This is a fork of the simplemde markdown editor, modified for use in the Safe network.
 
--> links should be safe:// instead of http://
--> images should be safe:// instead of http://
--> stripped any external requests
--> TODO : the Safe browser  ( electron ) doesn't support prompt -> find a workaround
+*links should be safe:// instead of http://
+*images should be safe:// instead of http://
+*stripped any external requests
+*TODO : the Safe browser  ( electron ) doesn't support prompt -> find a workaround
 
 # SimpleMDE - Markdown Editor
 A drop-in JavaScript textarea replacement for writing beautiful and understandable Markdown. The WYSIWYG-esque editor allows users who may be less experienced with Markdown to use familiar toolbar buttons and shortcuts. In addition, the syntax is rendered while editing to clearly show the expected result. Headings are larger, emphasized words are italicized, links are underlined, etc. SimpleMDE is one of the first editors to feature both built-in autosaving and spell checking.
