@@ -1218,10 +1218,10 @@ var toolbarBuiltInButtons = {
 	},
 	"guide": {
 		name: "guide",
-		action: "https://simplemde.com/markdown-guide",
+		action: "safe://markdown-guide", // maybe one day
 		className: "fa fa-question-circle",
 		title: "Markdown Guide",
-		default: true
+		default: false // disable this for now
 	},
 	"separator-5": {
 		name: "separator-5"
@@ -1271,10 +1271,11 @@ function SimpleMDE(options) {
 
 
 	// Check if Font Awesome needs to be auto downloaded
-	var autoDownloadFA = true;
+	// var autoDownloadFA = true;
+	var autoDownloadFA = false; // lets disable this for now
 
 	if(options.autoDownloadFontAwesome === false) {
-		autoDownloadFA = false;
+		autoDownloadFA = false; //
 	}
 
 	if(options.autoDownloadFontAwesome !== true) {
@@ -1292,7 +1293,8 @@ function SimpleMDE(options) {
 	if(autoDownloadFA) {
 		var link = document.createElement("link");
 		link.rel = "stylesheet";
-		link.href = "https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css";
+		// link.href = "https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"; //we really don't want to make an http request
+		link.href = "safe://somepath/font-awesome.min.css"; // one day maybe
 		document.getElementsByTagName("head")[0].appendChild(link);
 	}
 
