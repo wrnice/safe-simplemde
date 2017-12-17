@@ -1,6 +1,6 @@
 {
   "name": "safe-simplemde",
-  "version": "1.11.2",
+  "version": "0.1.0",
   "description": "A simple markdown editor for the Safe network browser",
   "keywords": [
     "embeddable",
