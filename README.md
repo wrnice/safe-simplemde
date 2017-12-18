@@ -7,3 +7,6 @@ This is a fork of the simplemde  (https://simplemde.com) markdown editor, modifi
 -stripped any external requests
 
 -TODO : the Safe browser  ( electron ) doesn't support prompt -> find a workaround
+
+
+Beware this is probably not going to be maintained !
