@@ -28,17 +28,17 @@
     "browserify": "*",
     "debug": "*",
     "eslint": "*",
-    "gulp": "*",
-    "gulp-concat": "*",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
     "gulp-debug": "*",
     "gulp-eslint": "*",
     "gulp-header": "*",
     "gulp-jsbeautifier": "*",
-    "gulp-clean-css": "*",
     "gulp-rename": "*",
-    "gulp-uglify": "*",
-    "vinyl-source-stream": "*",
-    "vinyl-buffer": "*"
+    "gulp-uglify": "^3.0.0",
+    "vinyl-buffer": "*",
+    "vinyl-source-stream": "*"
   },
   "repository": {
     "type": "git",
